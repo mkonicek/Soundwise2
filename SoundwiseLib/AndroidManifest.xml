@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Version code must be an integer and should increase by 1 with every release. -->
+<!-- Version name is the classical major.minor version. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="1" package="com.mobreactor.soundwiselib"
+	android:versionName="1.0">
+	<uses-feature android:required="true"
+		android:name="android.hardware.microphone"></uses-feature>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:theme="@android:style/Theme.NoTitleBar">
+		<activity android:label="@string/app_name"
+			android:screenOrientation="portrait" android:name="MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".send.SendActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:screenOrientation="portrait"
+			android:name=".receive.ReceiveActivity"></activity>
+		<activity android:name=".send.SendSource" android:screenOrientation="portrait"></activity>
+		<activity android:name=".send.DrawActivity" android:screenOrientation="portrait"></activity>
+	</application>
+
+	<uses-sdk android:minSdkVersion="7" />
+
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Soundwise/Soundwise.iml" filepath="$PROJECT_DIR$/Soundwise/Soundwise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoundwiseLib/SoundwiseLib.iml" filepath="$PROJECT_DIR$/SoundwiseLib/SoundwiseLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoundwiseReceiver/SoundwiseReceiver.iml" filepath="$PROJECT_DIR$/SoundwiseReceiver/SoundwiseReceiver.iml" />
+    </modules>
+  </component>
+</project>
+
